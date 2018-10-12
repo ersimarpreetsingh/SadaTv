@@ -1,0 +1,7 @@
+{
+  "name": "LiveTv",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
