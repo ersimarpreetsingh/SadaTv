@@ -1,0 +1,2 @@
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore sada_tv.keystore app-release-unsigned.apk cybertron
+C:\Users\cybertron\AppData\Local\Android\Sdk\build-tools\28.0.2\zipalign -v 4 app-release-unsigned.apk SadaTv_Signed_V_0.0.2.apk

@@ -1,0 +1,1 @@
+C:\Users\cybertron\AppData\Local\Android\Sdk\build-tools\28.0.2\zipalign -v 4 app-release-unsigned.apk SadaTv_unsigned_Signed_V_0.0.2.apk

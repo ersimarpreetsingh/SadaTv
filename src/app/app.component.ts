@@ -8,7 +8,7 @@ import { HomePage } from '../pages/home/home';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = HomePage;
+  rootPage:any;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
@@ -17,6 +17,7 @@ export class MyApp {
       statusBar.styleDefault();
       statusBar.backgroundColorByHexString('448aff');
       splashScreen.hide();
+      this.rootPage = HomePage;
     });
   }
 }
